@@ -8,7 +8,7 @@ const VideoNext = () => {
         <div>
           <ReactPlayer
             className="absolute top-0 left-0 right-0 bottom-0 h-full w-full"
-            url="https://youtu.be/N8GWM-1xDKQ?autoplay=1"
+            url="https://youtu.be/N8GWM-1xDKQ"
             playing={true}
             width="100%"
             height="100%"
@@ -20,5 +20,3 @@ const VideoNext = () => {
 };
 
 export default VideoNext;
-
-
