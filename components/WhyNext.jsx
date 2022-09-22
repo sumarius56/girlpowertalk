@@ -28,30 +28,28 @@ const WhyNext = () => {
         <Accordion.Panel>
           <Accordion.Title>Concept of Teamwork </Accordion.Title>
           <Accordion.Content>
-            <p className="mb-2 text-gray-500 dark:text-gray-400">
-              <ul className="list-disc">
-                <li>
-                  Building an organization that has a reliable framework for
-                  doing welfare in the world.
-                </li>
-                <li>
-                  Catalyzing a culture committed to the improvement of all young
-                  adults accepted.
-                </li>
-                <li>
-                  Offering women a stage to celebrate their successes and
-                  amplify their voices
-                </li>
-                <li>
-                  Leading education that inspires innovation and eradicates
-                  stereotypes.
-                </li>
-                <li>
-                  Growing an innovative technology company into a case study for
-                  digital transformation.
-                </li>
-              </ul>
-            </p>
+            <ul className="list-disc mb-2 text-gray-500 dark:text-gray-400">
+              <li>
+                Building an organization that has a reliable framework for doing
+                welfare in the world.
+              </li>
+              <li>
+                Catalyzing a culture committed to the improvement of all young
+                adults accepted.
+              </li>
+              <li>
+                Offering women a stage to celebrate their successes and amplify
+                their voices
+              </li>
+              <li>
+                Leading education that inspires innovation and eradicates
+                stereotypes.
+              </li>
+              <li>
+                Growing an innovative technology company into a case study for
+                digital transformation.
+              </li>
+            </ul>
           </Accordion.Content>
         </Accordion.Panel>
         <Accordion.Panel>
