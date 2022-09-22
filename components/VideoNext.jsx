@@ -7,13 +7,16 @@ const VideoNext = () => {
     <div id="hero" className="p-2 md:p-8">
       <div className="relative overflow-hidden w-full pt-[56.25%]">
         <div>
-          <ReactPlayer
+          <iframe
             className="absolute top-0 left-0 right-0 bottom-0 h-full w-full"
-            url="https://youtu.be/N8GWM-1xDKQ"
-            playing={true}
-            width="100%"
-            height="90%"
-          />
+            width="1280"
+            height="720"
+            src="https://www.youtube.com/embed/N8GWM-1xDKQ?autoplay=1&mute=1"
+            title="The Story of Girl Power Talk"
+            frameborder="0"
+            allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>
