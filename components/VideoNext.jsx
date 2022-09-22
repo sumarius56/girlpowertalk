@@ -1,5 +1,6 @@
 import React from "react";
-import ReactPlayer from "react-player";
+import dynamic from "next/dynamic";
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const VideoNext = () => {
   return (
@@ -11,7 +12,7 @@ const VideoNext = () => {
             url="https://youtu.be/N8GWM-1xDKQ"
             playing={true}
             width="100%"
-            height="100%"
+            height="90%"
           />
         </div>
       </div>

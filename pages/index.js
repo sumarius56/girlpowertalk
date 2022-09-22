@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <VideoNext />
         <NavbarNext />
+        <VideoNext />
         <Carousel />
         <WhyNext />
       </main>
